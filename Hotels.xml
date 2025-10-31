@@ -12,8 +12,8 @@
             <City>Mesa</City>
             <State>Arizona</State>
             <Zipcode>85207</Zipcode>
-            <NearestAirport>PHX Sky Harbor</NearestAirport>
         </Address>
+        <NearestAirport>PHX Sky Harbor</NearestAirport>
     </Hotel>
     <!--<Hotel>
         <Name></Name>
