@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotelsxmlns="https://raw.githubusercontent.com/Blpeterson/Assignment-4/refs/heads/main/Hotels.xml"
+<Hotelsxmlns="https://blpeterson.github.io/Assignment-4/Hotels.xml"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://raw.githubusercontent.com/Blpeterson/Assignment-4/refs/heads/main/Hotels.xsd">
+        xsi:schemaLocation="https://blpeterson.github.io/Assignment-4/Hotels.xml https://blpeterson.github.io/Assignment-4/Hotels.xsd">
 
     <Hotel Rating="4.8">
         <Name>Bracken Hotel</Name>
