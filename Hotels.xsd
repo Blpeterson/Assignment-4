@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns="https://raw.githubusercontent.com/Blpeterson/Assignment-4/refs/heads/main/Hotels.xml"
-    targetNamespace="https://raw.githubusercontent.com/Blpeterson/Assignment-4/refs/heads/main/Hotels.xml" 
+    xmlns="https://blpeterson.github.io/Assignment-4/Hotels.xml"
+    targetNamespace="https://blpeterson.github.io/Assignment-4/Hotels.xml" 
     elementFormDefault="qualified" attributeFormDefault="unqualified">
     
     <xsd:annotation>
