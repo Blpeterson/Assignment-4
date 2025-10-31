@@ -15,7 +15,7 @@
         </Address>
         <NearestAirport>PHX Sky Harbor</NearestAirport>
     </Hotel>
-    <!--<Hotel>
+    <!--<Hotel Rating="">
         <Name></Name>
         <Phone></Phone>
         <Address>
@@ -24,8 +24,7 @@
             <City></City>
             <State></State>
             <Zipcode></Zipcode>
-            <NearestAirport></NearestAirport>
         </Address>
-        <Rating></Rating>
+        <NearestAirport></NearestAirport>
     </Hotel>-->
 </Hotels>
