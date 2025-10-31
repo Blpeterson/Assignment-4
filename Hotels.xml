@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotelsxmlns="https://blpeterson.github.io/Assignment-4/Hotels.xml"
+<Hotels xmlns="https://blpeterson.github.io/Assignment-4/Hotels.xml"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://blpeterson.github.io/Assignment-4/Hotels.xml https://blpeterson.github.io/Assignment-4/Hotels.xsd">
 
