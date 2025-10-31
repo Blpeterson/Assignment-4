@@ -1,4 +1,31 @@
-Yo Yo
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotelsxmlns="https://raw.githubusercontent.com/Blpeterson/Assignment-4/refs/heads/main/Hotels.xml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://raw.githubusercontent.com/Blpeterson/Assignment-4/refs/heads/main/Hotels.xsd">
 
-
-Hey What up
+    <Hotel Rating="4.8">
+        <Name>Bracken Hotel</Name>
+        <Phone>480-641-5530</Phone>
+        <Address>
+            <Number>1234</Number>
+            <Street>N. Ananea</Street>
+            <City>Mesa</City>
+            <State>Arizona</State>
+            <Zipcode>85207</Zipcode>
+            <NearestAirport>PHX Sky Harbor</NearestAirport>
+        </Address>
+    </Hotel>
+    <!--<Hotel>
+        <Name></Name>
+        <Phone></Phone>
+        <Address>
+            <Number></Number>
+            <Street></Street>
+            <City></City>
+            <State></State>
+            <Zipcode></Zipcode>
+            <NearestAirport></NearestAirport>
+        </Address>
+        <Rating></Rating>
+    </Hotel>-->
+</Hotels>
