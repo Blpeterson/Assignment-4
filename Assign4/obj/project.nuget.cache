@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "f7qXItw45JA=",
+  "dgSpecHash": "abdUHygBYWM=",
   "success": true,
   "projectFilePath": "C:\\Users\\brack\\OneDrive\\Documents\\FALL 2025\\445 Distributed Software Dev\\Assignment 4\\Assign4\\Assign4.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\brack\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\brack\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net47\\1.0.3\\microsoft.netframework.referenceassemblies.net47.1.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
