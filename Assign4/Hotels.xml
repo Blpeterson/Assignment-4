@@ -63,5 +63,61 @@
             <Zipcode>85212</Zipcode>
         </Address>
     </Hotel>
+    ============================
+    <Hotel Rating="4.3">
+        <Name>Hilton Phoenix Airport</Name>
+        <Phone>480-894-1600</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>2435</Number>
+            <Street>S 47th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zipcode>85034</Zipcode>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.1">
+        <Name>Courtyard by Marriott</Name>
+        <Phone>480-966-4300</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>2621</Number>
+            <Street>S 47th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zipcode>85304</Zipcode>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.1">
+        <Name>La Quinta Inn by Wyndham Phoenix</Name>
+        <Phone>480-967-4465</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>911</Number>
+            <Street>911 S 48th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zipcode>85281</Zipcode>
+        </Address>
+    </Hotel>
+    <Hotel Rating="3.8">
+        <Name>Country Inn and Suites by Radisson</Name>
+        <Phone>480-306-4343</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>4702</Number>
+            <Street>E University Dr</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zipcode>85304</Zipcode>
+        </Address>
+    </Hotel>
+    <Hotel Rating="4.0">
+        <Name>Holiday Inn & Suites Phoenix</Name>
+        <Phone>480-543-1700</Phone>
+        <Address NearestAirport="Phoenix Sky Harbor International Airport">
+            <Number>3220</Number>
+            <Street>S 48th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zipcode>85040</Zipcode>
+        </Address>
+    </Hotel>
 </Hotels>
 
