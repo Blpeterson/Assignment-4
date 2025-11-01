@@ -108,7 +108,7 @@
         </Address>
     </Hotel>
     <Hotel Rating="4.0">
-        <Name>Holiday Inn & Suites Phoenix</Name>
+        <Name>Holiday Inn and Suites Phoenix</Name>
         <Phone>480-543-1700</Phone>
         <Address NearestAirport="Phoenix Sky Harbor International Airport">
             <Number>3220</Number>
