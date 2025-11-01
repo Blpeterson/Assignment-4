@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns="https://blpeterson.github.io/Assignment-4/Hotels.xml"
+<Hotel xmlns="https://blpeterson.github.io/Assignment-4/HotelsErrors.xml"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://blpeterson.github.io/Assignment-4/Hotels.xml https://blpeterson.github.io/Assignment-4/Hotels.xsd">
+        xsi:schemaLocation="https://blpeterson.github.io/Assignment-4/HotelsErrors.xml https://blpeterson.github.io/Assignment-4/Hotels.xsd">
 
     <Hotel Rating="4.6">
         <Name>Home2 Suites by Hilton Mesa Longbow</Name>
@@ -23,8 +23,8 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85205</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 
     <Hotel>
@@ -36,7 +36,7 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85209</Zipcode>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 
     <Hotel>
@@ -49,8 +49,8 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85209</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 
     <Hotel Rating="4.4">
@@ -62,7 +62,7 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85212</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 </Hotels>
