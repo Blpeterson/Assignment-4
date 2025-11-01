@@ -2,7 +2,7 @@ using System;
 using System.Xml.Schema;
 using System.Xml;
 using System.IO;
-//using Newtonsoft.Json;
+using Newtonsoft.Json;
 namespace ConsoleApp1
 {
     public class Program
@@ -21,8 +21,8 @@ namespace ConsoleApp1
             Console.WriteLine("EPICO MOVING ON TO THE ERRO DOC");
 
 
-            //result = Verification(xmlErrorURL, xsdURL);
-            //Console.WriteLine(result);
+            result = Verification(xmlErrorURL, xsdURL);
+            Console.WriteLine(result);
 
             //result = Xml2Json(xmlURL);
             //Console.WriteLine(result);
@@ -44,11 +44,19 @@ namespace ConsoleApp1
             doc.Load(xmlUrl);
 
             //Validate the XML
-            doc.Validate((o, error) =>
+            try
             {
-                errorMessage += " " + error.Message;
+                doc.Validate((o, error) =>
+                {
+                    errorMessage += " " + error.Message;
+                    isValid = false;
+                });
+            }
+            catch(Exception ex)
+            {
+                errorMessage += " exception: " + ex.Message;
                 isValid = false;
-            });
+            }
 
             if (isValid)
             {
@@ -64,13 +72,13 @@ namespace ConsoleApp1
             //return "No Error" if XML is valid. Otherwise, return the desired exception message.
         }
         // Q2.2
-        // public static string Xml2Json(string xmlUrl)
-        // {
+        public static string Xml2Json(string xmlUrl)
+        {
+            string jsonText = "";
 
-
-        //     // The returned jsonText needs to be de-serializable by Newtonsoft.Json package.
-        //     (JsonConvert.DeserializeXmlNode(jsonText));
-        //     return jsonText;
-        // }
+            // The returned jsonText needs to be de-serializable by Newtonsoft.Json package.
+            JsonConvert.DeserializeXmlNode(jsonText);
+            return jsonText;
+        }
     }
 }
