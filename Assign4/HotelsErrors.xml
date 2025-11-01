@@ -15,9 +15,9 @@
         </Address>
     </Hotel>
 
-    <Hotel Rating="2.4" NearestAirport="Phoenix-Mesa Gateway">
+    <Hotel Rating="2.4">
         <Name>Miles Motel</Name>
-        <Address>
+        <Address NearestAirport="Phoenix-Mesa Gateway">
             <Number>5911</Number>
             <Street>E Main St</Street>
             <City>Mesa</City>
@@ -26,10 +26,10 @@
         </Address>
     </Hotel>
 
-    <Hotel NearestAirport="Phoenix-Mesa Gateway">
+    <Hotel>
         <Name>Candlewood Suites Mesa - Phoenix East by IHG</Name>
         <Phone>480-908-1033</Phone>
-        <Address>
+        <Address NearestAirport="Phoenix-Mesa Gateway">
             <Number>1748</Number>
             <Street>S Crismon Rd</Street>
             <City>Mesa</City>
@@ -37,11 +37,11 @@
             <Zipcode>85209</Zipcode>
     </Hotel>
 
-    <Hotel NearestAirport="Phoenix-Mesa Gateway">
+    <Hotel>
         <Name>Residence Inn by Marriott Phoenix Mesa East</Name>
         <Name>Residence Inn Not By Marriott</Name>
         <Phone>480-373-9000</Phone>
-        <Address>
+        <Address NearestAirport="Phoenix-Mesa Gateway">
             <Number>10243</Number>
             <Street>E Hampton Ave</Street>
             <City>Mesa</City>
@@ -50,10 +50,10 @@
         </Address>
     </Hotel>
 
-    <Hotel Rating="4.4" NearestAirport="Phoenix-Mesa Gateway">
+    <Hotel Rating="4.4">
         <Name>Courtyard by Marriott Phoenix Mesa Gateway Airport</Name>
         <Phone>480-351-7088</Phone>
-        <Address>
+        <Address NearestAirport="Phoenix-Mesa Gateway">
             <Number>6907</Number>
             <Street>E Ray Rd</Street>
             <City>Mesa</City>
