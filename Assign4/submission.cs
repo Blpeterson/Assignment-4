@@ -21,8 +21,8 @@ namespace ConsoleApp1
             //Console.WriteLine("EPICO MOVING ON TO THE ERROR DOC");
 
 
-            //result = Verification(xmlErrorURL, xsdURL);
-            //Console.WriteLine(result);
+            result = Verification(xmlErrorURL, xsdURL);
+            Console.WriteLine(result);
 
             //Console.WriteLine("EPICO MOVING ON TO THE JSON");
 
