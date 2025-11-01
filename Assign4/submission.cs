@@ -1,6 +1,8 @@
 using System;
 using System.Xml.Schema;
 using System.Xml;
+using System.IO;
+//using Newtonsoft.Json;
 namespace ConsoleApp1
 {
     public class Program
@@ -21,7 +23,7 @@ namespace ConsoleApp1
 
             //result = Verification(xmlErrorURL, xsdURL);
             //Console.WriteLine(result);
-            
+
             //result = Xml2Json(xmlURL);
             //Console.WriteLine(result);
         }
@@ -34,7 +36,7 @@ namespace ConsoleApp1
 
             //Load XSD Schema
             XmlSchemaSet schemas = new XmlSchemaSet();
-            schemas.Add(xmlUrl, xsdUrl);
+            schemas.Add("https://blpeterson.github.io/Assignment-4/Assign4/Hotels.xml", xsdUrl);
 
             //Load the XML
             XmlDocument doc = new XmlDocument();
