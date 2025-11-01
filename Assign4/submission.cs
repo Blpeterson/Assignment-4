@@ -18,14 +18,16 @@ namespace ConsoleApp1
             string result = Verification(xmlURL, xsdURL);
             Console.WriteLine(result);
 
-            Console.WriteLine("EPICO MOVING ON TO THE ERRO DOC");
+            //Console.WriteLine("EPICO MOVING ON TO THE ERROR DOC");
 
 
-            result = Verification(xmlErrorURL, xsdURL);
-            Console.WriteLine(result);
-
-            //result = Xml2Json(xmlURL);
+            //result = Verification(xmlErrorURL, xsdURL);
             //Console.WriteLine(result);
+
+            //Console.WriteLine("EPICO MOVING ON TO THE JSON");
+
+            result = Xml2Json(xmlURL);
+            Console.WriteLine(result);
         }
 
         // Q2.1
@@ -36,7 +38,7 @@ namespace ConsoleApp1
 
             //Load XSD Schema
             XmlSchemaSet schemas = new XmlSchemaSet();
-            schemas.Add("https://blpeterson.github.io/Assignment-4/Assign4/Hotels.xml", xsdUrl);
+            schemas.Add(xmlURL, xsdUrl);
 
             //Load the XML
             XmlDocument doc = new XmlDocument();
@@ -74,7 +76,11 @@ namespace ConsoleApp1
         // Q2.2
         public static string Xml2Json(string xmlUrl)
         {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(xmlUrl);
+            string xml = doc.OuterXml; //XML file in Txt format
             string jsonText = "";
+
 
             // The returned jsonText needs to be de-serializable by Newtonsoft.Json package.
             JsonConvert.DeserializeXmlNode(jsonText);
