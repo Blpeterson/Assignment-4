@@ -12,8 +12,8 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85215</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 
     <Hotel Rating="2.4">
@@ -25,8 +25,9 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85205</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
+        
     </Hotel>
 
     <Hotel>
@@ -38,8 +39,8 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85209</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 
     <Hotel>
@@ -51,8 +52,8 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85209</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 
     <Hotel Rating="4.4">
@@ -64,7 +65,8 @@
             <City>Mesa</City>
             <State>AZ</State>
             <Zipcode>85212</Zipcode>
+            <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
         </Address>
-        <NearestAirport>Phoenix-Mesa Gateway</NearestAirport>
     </Hotel>
 </Hotels>
+
